@@ -1,0 +1,11 @@
+{
+  "id": "zotero",
+  "name": "Zotero",
+  "description": "通过本地 Zotero MCP 服务检索文献、读取元数据与批注。",
+  "transport": "stdio",
+  "command": "zotero-mcp",
+  "args": ["serve"],
+  "authType": "none",
+  "version": "1.0.1",
+  "icon": "icon.png"
+}

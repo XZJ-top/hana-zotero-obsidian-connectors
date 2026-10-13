@@ -1,0 +1,19 @@
+{
+  "id": "obsidian-local",
+  "name": "Obsidian（本地 MCP）",
+  "description": "通过 Obsidian Local REST API 的 MCP 服务搜索、读取和更新本地知识库。",
+  "transport": "streamable-http",
+  "url": "https://127.0.0.1:27124/mcp/",
+  "authType": "bearer",
+  "credentials": [
+    {
+      "id": "apiKey",
+      "label": "Obsidian API Key",
+      "target": {
+        "type": "bearer"
+      }
+    }
+  ],
+  "version": "1.0.1",
+  "icon": "icon.png"
+}
